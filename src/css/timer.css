@@ -1,0 +1,21 @@
+* {
+  font-size: 20px;
+  color: darkblue;
+}
+
+.input {
+  margin-right: 8px;
+  padding: 8px;
+  border-color: darkblue;
+}
+
+.btn {
+  margin-bottom: 24px;
+  padding: 8px;
+  width: 120px;
+  border-color: darkblue;
+}
+.timer {
+  display: flex;
+  gap: 16px;
+}

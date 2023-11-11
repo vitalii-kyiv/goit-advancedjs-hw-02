@@ -16,3 +16,7 @@ img {
   display: block;
   max-width: 100%;
 }
+
+.iziToast-body {
+  min-width: 450px;
+}
