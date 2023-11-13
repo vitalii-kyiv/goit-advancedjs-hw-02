@@ -6,7 +6,13 @@
 .input {
   margin-right: 8px;
   padding: 8px;
+  border: solid;
   border-color: darkblue;
+}
+
+.input:disabled {
+  color: gray;
+  border-color: gray;
 }
 
 .btn {
@@ -14,6 +20,13 @@
   padding: 8px;
   width: 120px;
   border-color: darkblue;
+  border: solid;
+  cursor: pointer;
+}
+.btn:disabled {
+  color: gray;
+  border-color: gray;
+  cursor: not-allowed;
 }
 .timer {
   display: flex;

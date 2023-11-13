@@ -2,7 +2,7 @@ import iziToast from 'izitoast';
 import 'izitoast/dist/css/iziToast.min.css';
 
 const form = document.querySelector('.form');
-const { delay, step, amount } = form.elements;
+const { delay, step, amount, submitButton } = form.elements;
 
 form.addEventListener('submit', onSubmitBtnClick);
 
@@ -51,4 +51,5 @@ function onSubmitBtnClick(evt) {
         });
       });
   }
+  form.reset();
 }

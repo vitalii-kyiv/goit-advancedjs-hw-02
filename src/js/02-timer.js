@@ -68,6 +68,8 @@ startBtn.addEventListener('click', onStartBtnClick);
 let second = 1000;
 
 function onStartBtnClick() {
+  startBtn.disabled = true;
+  getTimeDate.disabled = true;
   const timerInterval = setInterval(function () {
     const timeObj = convertMs(timeDifference);
     const days = addLeadingZero(timeObj.days);
@@ -79,8 +81,9 @@ function onStartBtnClick() {
     elements.minutes.textContent = minutes;
     elements.seconds.textContent = seconds;
 
-    if (timeDifference <= 0) {
+    if (timeDifference <= 1000) {
       clearInterval(timerInterval);
+      getTimeDate.disabled = false;
     }
     timeDifference -= second;
   }, second);
