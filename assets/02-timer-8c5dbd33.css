@@ -1,0 +1,1 @@
+*{font-size:20px;color:#00008b}.input{margin-right:8px;padding:8px;border:solid;border-color:#00008b}.input:disabled{color:gray;border-color:gray}.btn{margin-bottom:24px;padding:8px;width:120px;border-color:#00008b;border:solid;cursor:pointer}.btn:disabled{color:gray;border-color:gray;cursor:not-allowed}.timer{display:flex;gap:16px}
